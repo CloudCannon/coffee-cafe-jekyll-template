@@ -1,116 +1,126 @@
 body {
-	font-family: "Source Sans Pro",sans-serif;
-	padding: 0;
-	margin: 0;
-	font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
 }
 
-
 p {
-	line-height: 1.6em;
+  line-height: 1.6em
 }
 
 a {
-	color: #000;
+  color: #000
 }
 
-h1, h2 {
-	padding: 0;
-	margin: 0;
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-	font-weight: normal;
+  font-weight: normal
 }
 
 h2 {
-	font-size: 60px;
-	text-align: center;
+  font-size: 60px;
+  text-align: center;
 }
 
 h3 {
-	font-size: 1.8em;
-	margin: 15px 0;
+  font-size: 1.8em;
+  margin: 15px 0;
 }
 
-div.container, div.small-container {
-	margin: 0 auto;
+div.container,
+div.small-container {
+  margin: 0 auto
 }
 
 div.container {
-	width: 940px;
+  width: 940px
 }
 
-div.small-container  {
-	width: 700px;
+div.small-container {
+  width: 700px
 }
 
-header, section.hero, footer {
-	background: #3074FB;
-	color: #ffffff;
+header,
+section.hero,
+footer {
+  background: #3074FB;
+  color: #ffffff;
 }
 
-header a, section.hero a, footer a  {
-	text-decoration: none;
-	color: #ffffff;
+header a,
+section.hero a,
+footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-header a.button, section.hero a.button, footer a.button {
-	border-color: #ffffff;
+header a.button,
+section.hero a.button,
+footer a.button {
+  border-color: #ffffff
 }
 
-header a.button:hover, section.hero a.button:hover, footer a.button:hover {
-	background: #FF9608;
+header a.button:hover,
+section.hero a.button:hover,
+footer a.button:hover {
+  background: #FF9608
 }
 
-header, footer {
-	padding: 10px 0;
+header,
+footer {
+  padding: 10px 0
 }
 
 nav.main-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
 }
 
-nav.main-nav li, nav.main-nav a {
-	display: inline-block;
+nav.main-nav li,
+nav.main-nav a {
+  display: inline-block
 }
 
-nav.main-nav li a{
-	padding: 10px;
+nav.main-nav li a {
+  padding: 10px
 }
 
 section.hero {
-	padding: 40px 0 60px 0;
+  padding: 40px 0 60px 0
 }
 
-
 p.sub-text {
-	font-size: 20px;
-	text-align: center;
-	line-height: 28px;
-	margin: 30px 0 60px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  margin: 30px 0 60px;
 }
 
 a.button {
-	padding: 10px;
-	border: 2px solid #000000;
-	border-radius: 4px;
-	color: black;
-	text-decoration: none;
-	display: inline-block;
-	margin: 20px 0;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
 }
 
 a.button:hover {
-	background: #3074FB;
-	color: #ffffff;
+  background: #3074FB;
+  color: #ffffff;
 }
 
 .center-text {
-	text-align: center;
+  text-align: center
 }
 
 .columns:after {
@@ -120,36 +130,36 @@ a.button:hover {
 }
 
 .spacing {
-	margin: 90px 0;
+  margin: 90px 0
 }
 
 .column {
-	box-sizing: border-box;
-	float: left;
+  box-sizing: border-box;
+  float: left;
 }
 
 .column.third {
-	width: 33%;
-	padding: 0 20px;
-	text-align: center;
+  width: 33%;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .column.half {
-	width: 50%;
-	padding-left: 20px;
-	padding-right: 20px;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .push-down {
-	padding-top: 90px;
+  padding-top: 90px
 }
 
 .blog-post {
-	width: 750px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog-post .date {
-	float: right;
+  float: right
 }
