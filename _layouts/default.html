@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
   </head>
@@ -20,15 +20,7 @@
       </div>
     </header>
     <div class="content">
-      <div class="container">
-        <h2 class="spacing">The best title tag</h2>
-        <div class="blog-post spacing">
-          <p class="summary">Tutorial<span class="date">January 02, 2016</span></p>
-          <p>Title tags—technically called title elements—define the title of a document. Title tags are often used on search engine results pages (SERPs) to display preview snippets for a given page, and are important both for SEO and social sharing.</p>
-          <p>The title element of a web page is meant to be an accurate and concise description of a page’s content. This element is critical to both user experience and search engine optimization. It creates value in three specific areas: relevancy, browsing, and in the search engine results pages.</p>
-          <p>Source / Read more <a href="https://moz.com/learn/seo/title-tag">here</a>.</p>
-        </div>
-      </div>
+      {{ content }}
     </div>
     <footer>
       <div class="container">
