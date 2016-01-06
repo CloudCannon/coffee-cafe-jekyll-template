@@ -1,48 +1,22 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav class="main-nav">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="#">Sign Up</a></li>
-          </ul>
-        </nav>
-        <h1><a href="/">Magpie<strong>SEO</strong></a></h1>
+---
+layout: default
+title: Blog
+---
+<div class="container">
+  <h2 class="spacing">Blog</h2>
+
+  <div class="blog-posts">
+    {% for post in site.posts %}
+      <div class="blog-post spacing">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="summary">
+          {{ post.category }}
+          <span class="date">
+            {{ post.date | date: '%B %d, %Y' }}
+          </span>
+        </p>
+        {{ post.content }}
       </div>
-    </header>
-    <div class="content">
-      <div class="container">
-        <h2 class="spacing">Blog</h2>
-        <div class="blog-posts">
-          <div class="blog-post spacing">
-            <h3><a href="/post.html">The best title tag</a></h3>
-            <p class="summary">Tutorial<span class="date">January 02, 2016</span></p>
-            <p>Title tags—technically called title elements—define the title of a document. Title tags are often used on search engine results pages (SERPs) to display preview snippets for a given page, and are important both for SEO and social sharing.</p>
-            <p>The title element of a web page is meant to be an accurate and concise description of a page’s content. This element is critical to both user experience and search engine optimization. It creates value in three specific areas: relevancy, browsing, and in the search engine results pages.</p>
-            <p>Source / Read more <a href="https://moz.com/learn/seo/title-tag">here</a>.</p>
-          </div>
-          <div class="blog-post spacing">
-            <h3><a href="/post.html">Latest SEO trends at Google</a></h3>
-            <p class="summary">Announcement<span class="date">January 01, 2016</span></p>
-            <p>The Internet is a huge factor in how marketing is performed nowadays, and keeping up with the latest SEO trends is important to keeping your marketing edge. This is because traditional push marketing is being replaced by more cost-effective inbound marketing strategies like search engine optimization (SEO), that drives targeted audiences to you as apposed to out bound marketing where you are marketing to the masses and hoping you reach the right people. Make sure to bookmark this page as your SEO best practices checklist and don’t let up! Here are the top 8 SEO trends to watch for in 2015.</p>
-            <p>Source / Read more <a href="http://www.business2community.com/seo/seo-best-practices-trends-2015-01142021#6YRoBlolHpMBKmjS.97">here</a>.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <p class="center-text"><a href="http://cloudcannon.com">Created by CloudCannon</a>. <a href='http://www.freepik.com/free-vector/magnifying-glass-text-search_761235.htm'>Infographic by Freepik</a></p>
-      </div>
-    </footer>
-  </body>
-</html>
+    {% endfor %}
+  </div>
+</div>
