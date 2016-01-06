@@ -163,3 +163,76 @@ a.button:hover {
 .blog-post .date {
   float: right
 }
+
+.comment {
+  border: 1px solid #CCC;
+  padding: 20px 50px;
+  color: #777;
+  position: relative;
+  font-size: .9em;
+  margin: 30px 0;
+}
+
+.comment h4 {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 143px;
+}
+
+.comment span.date {
+  position: absolute;
+  top: 64px;
+  left: 142px;
+}
+
+.comment .profile-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 60px 0;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+  box-sizing: padding-box;
+}
+
+textarea {
+  height: 250px;
+  line-height: 1.5em;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+label {
+  margin: 30px 0 10px 0;
+  display: block;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
+  background: #3074FB;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: .8em;
+  margin: 30px 0 0 0;
+}
+
+input[type="submit"]:hover {
+  background: #FF9608;
+}
