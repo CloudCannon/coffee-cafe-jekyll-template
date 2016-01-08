@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 20px;
+  background: #3074FB;
 }
 
 p {
@@ -99,6 +100,10 @@ nav.main-nav li a {
   padding: 10px;
 }
 
+div.content {
+  background: #fff;
+}
+
 section.hero {
   padding: 40px 0 60px 0;
 }
@@ -136,7 +141,7 @@ a.button:hover {
 }
 
 .spacing {
-  margin: 90px 0;
+  padding: 50px 0;
 }
 
 .column {
@@ -154,10 +159,6 @@ a.button:hover {
   width: 50%;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.push-down {
-  padding-top: 90px;
 }
 
 .blog-post {
