@@ -1,5 +1,5 @@
 $(function() {
-  var ref = new Firebase("https://comment-jekyll.firebaseio.com/"),
+  var ref = new Firebase("https://<YOUR-APP-ID>.firebaseio.com/"),
     postRef = ref.child(slugify(window.location.pathname));
 
     postRef.on("child_added", function(snapshot) {
@@ -26,5 +26,6 @@ $(function() {
 function slugify(text) {
   return text.toString().toLowerCase().trim()
     .replace(/&/g, '-and-')
-    .replace(/[\s\W-]+/g, '-');
+    .replace(/[\s\W-]+/g, '-')
+    .replace(/[^a-zA-Z0-9-_]+/g,'');
 }
