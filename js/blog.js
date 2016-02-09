@@ -1,5 +1,5 @@
 $(function() {
-  var ref = new Firebase("https://<YOUR-APP-ID>.firebaseio.com/"),
+  var ref = new Firebase("https://comment-jekyll.firebaseio.com/"),
     postRef = ref.child(slugify(window.location.pathname));
 
     postRef.on("child_added", function(snapshot) {
