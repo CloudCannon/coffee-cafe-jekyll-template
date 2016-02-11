@@ -199,7 +199,7 @@ input[type="text"] {
   padding: 10px;
   font-size: 18px;
   display: block;
-  box-sizing: padding-box;
+  box-sizing: border-box;
 }
 
 textarea {
