@@ -89,6 +89,12 @@ nav.main-nav ul {
   float: right;
 }
 
+@media only screen and (max-width: 365px) {
+  nav.main-nav ul {
+    float: none;
+  }
+}
+
 nav.main-nav li,
 nav.main-nav a {
   display: inline-block;
@@ -144,7 +150,7 @@ p.sub-text {
 }
 
 .blog-post {
-  width: 750px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,7 +199,7 @@ input[type="text"] {
   padding: 10px;
   font-size: 18px;
   display: block;
-  box-sizing: padding-box;
+  box-sizing: border-box;
 }
 
 textarea {
